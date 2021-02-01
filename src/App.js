@@ -1,8 +1,12 @@
-import Login from "./components/Login";
+import AddAgent from "./components/AddAgent";
 import "./App.css";
 
 function App() {
-	return <Login />;
+	return (
+		<>
+			<AddAgent />
+		</>
+	);
 }
 
 export default App;
